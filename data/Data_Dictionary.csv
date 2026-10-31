@@ -1,0 +1,14 @@
+Parameter,Description,Specification,Unit,Data Type
+report_date,Date the sample was taken and tested.,m/d/y,Unitless,Date
+Shift,Day or Night shift.,Day or Night,Unitless,Varchar
+phosphate,Phosphate concentration measured in the boiler water sample.,5.0 - 15.0,ppm,Numeric
+bw_ph,Acidity or alkalinity (pH) of the boiler water.,9.0 - 11.0,Unitless,Numeric
+bw_do,Dissolved oxygen concentration in the boiler water.,0.0,ppm,Numeric
+bw_tds,Total dissolved solids present in the boiler water.,? 300,ppm,Integer
+fwt_do,Dissolved oxygen concentration in the feed water tank.,0.0,ppm,Numeric
+fw_temp,Temperature of the feed water.,90 - 100,°C,Numeric
+fw_ph,Acidity or alkalinity (pH) of the feed water.,8.0 - 9.0,Unitless,Numeric
+fw_silica,Silica (SiO?) concentration in the feed water.,? 0.3,ppm,Numeric
+bo_silica,Silica (SiO?) concentration in the boiler water.,? 25,ppm,ppm
+bud_ph,Acidity or alkalinity (pH) of the boiler upper drum water.,7.0 - 8.5,Unitless,Numeric
+bud_tds,Total dissolved solids in the boiler upper drum water.,0.0 - 2.0,ppm,Numeric
