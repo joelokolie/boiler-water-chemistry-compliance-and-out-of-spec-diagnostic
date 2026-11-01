@@ -15,6 +15,7 @@
 - [Data Quality Notes](#data-quality-notes)
 - [Methodology](#methodology)
 - [Limitations](#limitations)
+- [Future Improvements](#future-improvements)
 - [How to Refresh the Dashboard](#how-to-refresh-the-dashboard)
 - [Repository Structure](#repository-structure)
 - [Author](#author)
@@ -136,6 +137,9 @@ The checks was done to finally confirm the cleaning process done in power query.
 - Sampling is irregular (119 sampling dates across 175 days), so rates are per sample, not per day.
 - Specifications are treated as fixed for the whole period.
 - The findings are a point-in-time snapshot (to 21 Oct 2026); the live dashboard will move as data is added.
+
+## Future Improvements
+- Rebuild the entire project with Power Query and DAX measures in Power BI
 
 ## How to Refresh the Dashboard
 Use this routine to keep the dashboard current as new shift readings are logged.
